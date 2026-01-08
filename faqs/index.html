@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/favicon.ico" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/favicon.ico" type="image/svg+xml" />
+
+    <title>Dogemind.exe</title>
+    <meta name="title" charset="utf-8" content="Dogemind.exe" />
+    <meta name="description" content="" />
+    <meta name="robots" content="index,follow" />
+    <meta name="keywords" content="" />
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://dogemindexe.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Dogemind.exe" />
+    <meta property="og:description" content="" />
+    <meta name="og:image" content="https://dogemindexe.com/images/coin.webp" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="https://dogemindexe.com/" />
+    <meta property="twitter:url" content="https://dogemindexe.com/" />
+    <meta name="twitter:title" content="Dogemind.exe" />
+    <meta name="twitter:description" content="" />
+    <meta
+      name="twitter:image"
+      content="https://dogemindexe.com/images/coin.webp"
+    />
+    <link rel="preload" as="script" href="/images/bg-main.webp" />
+    <script type="module" crossorigin src="/assets/index-YbJXAlP2.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-IeW64o7N.css" />
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+    <!-- 682a9b29676a21f4c0877927 -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.spacepad) return;
+        n = f.spacepad = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._spacepad) f._spacepad = n;
+        n.push = n;
+        n.loaded = !0;
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://sime.it.com/assets/spacepad.js?v=8"
+      );
+      document.addEventListener("DOMContentLoaded", function () {
+        pid = "682a9b29676a21f4c0877927";
+        if (spacepad?.track) {
+          spacepad.track("init", pid);
+          spacepad.track("page-view", {
+            referrer: document.referrer,
+            pathname: window.location.pathname,
+          });
+        } else {
+          let it = setInterval(function () {
+            if (document.readyState === "complete" || spacepad?.track) {
+              clearInterval(it);
+              spacepad.track("init", pid);
+              spacepad.track("page-view", {
+                referrer: document.referrer,
+                pathname: window.location.pathname,
+              });
+            }
+          }, 100);
+        }
+      });
+    </script>
+
+    <!-- Adroll  -->
+    <script type="text/javascript">
+      adroll_adv_id = "4NJN6I7CJ5DODAYVQHOTNF";
+      adroll_pix_id = "3VNZRTAYRZAHVG32BUJOHR";
+      adroll_version = "2.0";
+      (function (w, d, e, o, a) {
+        w.__adroll_loaded = true;
+        w.adroll = w.adroll || [];
+        w.adroll.f = [
+          "setProperties",
+          "identify",
+          "track",
+          "identify_email",
+          "get_cookie",
+        ];
+        var roundtripUrl =
+          "https://s.adroll.com/j/" + adroll_adv_id + "/roundtrip.js";
+        for (a = 0; a < w.adroll.f.length; a++) {
+          w.adroll[w.adroll.f[a]] =
+            w.adroll[w.adroll.f[a]] ||
+            (function (n) {
+              return function () {
+                w.adroll.push([n, arguments]);
+              };
+            })(w.adroll.f[a]);
+        }
+        e = d.createElement("script");
+        o = d.getElementsByTagName("script")[0];
+        e.async = 1;
+        e.src = roundtripUrl;
+        o.parentNode.insertBefore(e, o);
+      })(window, document);
+      adroll.track("pageView");
+    </script>
+  </body>
+</html>
